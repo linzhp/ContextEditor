@@ -1,0 +1,37 @@
+startshape TEST
+rule TEST {
+    RECDONG { rotate 90 }
+    RECDONG { rotate 270 }
+}
+rule RECDONG {
+    DONG { }
+    RECDONG { y 5 x -0.9 size 0.5 rotate 80 }
+    RECDONG { y 4.75 x 1.8 size 0.5 rotate -100 }
+}
+rule DONG {
+    c1 { x -1 }
+    c1 { x 1 size 0.9}
+    HEAD { rotate -20 y 10.5 size 0.5 x 3 }
+}
+rule HEAD {
+    HEADR { rotate 260 }
+    HEADL { rotate -260 }
+}
+rule HEADR {
+    SQUARE { }
+    HEADR { rotate -10 size 0.92 x -0.0124921 y 0.909067 }
+}
+rule HEADL {
+    SQUARE { }
+    HEADL { rotate 10 size 0.92 x -0.0124921 y 0.909067 }
+}
+rule c1 {
+    curveright_0.9_5 { }
+}
+rule curveright_0.9_5 {
+    SQUARE { }
+    curveright_0.9_5 { rotate -2 size 0.9 x -0.0124921 y 0.909067 }
+}
+
+
+

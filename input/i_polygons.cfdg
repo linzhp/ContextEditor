@@ -1,0 +1,310 @@
+startshape polygontest
+
+rule polygontest {
+	polygonRightTriangle {}
+	CIRCLE {x 2}
+	SQUARE {size 1.0 0.1 x 4 rotate 45}
+	TRIANGLE {x 6}
+	SQUARE {x 8}
+	polygon5sided {x 0 y 2}
+	polygon6sided {x 2 y 2}
+	polygon7sided {x 4 y 2}
+	polygon8sided {x 6 y 2}
+	polygon9sided {x 8 y 2}
+	polygon10sided {x 0 y 4}
+	polygon11sided {x 2 y 4}
+	polygon12sided {x 4 y 4}
+	polygon13sided {x 6 y 4}
+	polygon14sided {x 8 y 4}
+	polygon15sided {x 0 y 6}
+	polygon16sided {x 2 y 6}
+	polygon17sided {x 4 y 6}
+	polygon18sided {x 6 y 6}
+	polygon19sided {x 8 y 6}
+	polygon20sided {x 0 y 8}
+	polygon21sided {x 2 y 8}
+	polygon22sided {x 4 y 8}
+	polygon23sided {x 6 y 8}
+	polygon24sided {x 8 y 8}
+}
+
+// This is a unit right triangle
+rule polygonRightTriangle {
+	TRIANGLE [ size 1 1.155 x 0.165 y -0.144 skew 30 0 ]
+}
+
+
+rule polygon5sided {
+	SQUARE [rotate 0 size 0.404509 0.587785 x 0.5]
+	SQUARE [rotate 72 size 0.404509 0.587785 x 0.5]
+	SQUARE [rotate 144 size 0.404509 0.587785 x 0.5]
+	SQUARE [rotate 216 size 0.404509 0.587785 x 0.5]
+	SQUARE [rotate 288 size 0.404509 0.587785 x 0.5]
+}
+
+rule polygon6sided {
+	SQUARE [rotate 0 size 0.866025 0.5]
+	SQUARE [rotate 60 size 0.866025 0.5]
+	SQUARE [rotate 120 size 0.866025 0.5]
+}
+
+rule polygon7sided {
+	SQUARE [rotate 0 size 0.450484 0.433884 x 0.5]
+	SQUARE [rotate 51.4286 size 0.450484 0.433884 x 0.5]
+	SQUARE [rotate 102.857 size 0.450484 0.433884 x 0.5]
+	SQUARE [rotate 154.286 size 0.450484 0.433884 x 0.5]
+	SQUARE [rotate 205.714 size 0.450484 0.433884 x 0.5]
+	SQUARE [rotate 257.143 size 0.450484 0.433884 x 0.5]
+	SQUARE [rotate 308.571 size 0.450484 0.433884 x 0.5]
+}
+
+rule polygon8sided {
+	SQUARE [rotate 0 size 0.92388 0.382683]
+	SQUARE [rotate 45 size 0.92388 0.382683]
+	SQUARE [rotate 90 size 0.92388 0.382683]
+	SQUARE [rotate 135 size 0.92388 0.382683]
+}
+
+rule polygon9sided {
+	SQUARE [rotate 0 size 0.469846 0.34202 x 0.5]
+	SQUARE [rotate 40 size 0.469846 0.34202 x 0.5]
+	SQUARE [rotate 80 size 0.469846 0.34202 x 0.5]
+	SQUARE [rotate 120 size 0.469846 0.34202 x 0.5]
+	SQUARE [rotate 160 size 0.469846 0.34202 x 0.5]
+	SQUARE [rotate 200 size 0.469846 0.34202 x 0.5]
+	SQUARE [rotate 240 size 0.469846 0.34202 x 0.5]
+	SQUARE [rotate 280 size 0.469846 0.34202 x 0.5]
+	SQUARE [rotate 320 size 0.469846 0.34202 x 0.5]
+}
+
+rule polygon10sided {
+	SQUARE [rotate 0 size 0.951057 0.309017]
+	SQUARE [rotate 36 size 0.951057 0.309017]
+	SQUARE [rotate 72 size 0.951057 0.309017]
+	SQUARE [rotate 108 size 0.951057 0.309017]
+	SQUARE [rotate 144 size 0.951057 0.309017]
+}
+
+rule polygon11sided {
+	SQUARE [rotate 0 size 0.479746 0.281733 x 0.5]
+	SQUARE [rotate 32.7273 size 0.479746 0.281733 x 0.5]
+	SQUARE [rotate 65.4545 size 0.479746 0.281733 x 0.5]
+	SQUARE [rotate 98.1818 size 0.479746 0.281733 x 0.5]
+	SQUARE [rotate 130.909 size 0.479746 0.281733 x 0.5]
+	SQUARE [rotate 163.636 size 0.479746 0.281733 x 0.5]
+	SQUARE [rotate 196.364 size 0.479746 0.281733 x 0.5]
+	SQUARE [rotate 229.091 size 0.479746 0.281733 x 0.5]
+	SQUARE [rotate 261.818 size 0.479746 0.281733 x 0.5]
+	SQUARE [rotate 294.545 size 0.479746 0.281733 x 0.5]
+	SQUARE [rotate 327.273 size 0.479746 0.281733 x 0.5]
+}
+
+rule polygon12sided {
+	SQUARE [rotate 0 size 0.965926 0.258819]
+	SQUARE [rotate 30 size 0.965926 0.258819]
+	SQUARE [rotate 60 size 0.965926 0.258819]
+	SQUARE [rotate 90 size 0.965926 0.258819]
+	SQUARE [rotate 120 size 0.965926 0.258819]
+	SQUARE [rotate 150 size 0.965926 0.258819]
+}
+
+rule polygon13sided {
+	SQUARE [rotate 0 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 27.6923 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 55.3846 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 83.0769 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 110.769 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 138.462 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 166.154 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 193.846 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 221.538 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 249.231 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 276.923 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 304.615 size 0.485471 0.239316 x 0.5]
+	SQUARE [rotate 332.308 size 0.485471 0.239316 x 0.5]
+}
+
+rule polygon14sided {
+	SQUARE [rotate 0 size 0.974928 0.222521]
+	SQUARE [rotate 25.7143 size 0.974928 0.222521]
+	SQUARE [rotate 51.4286 size 0.974928 0.222521]
+	SQUARE [rotate 77.1429 size 0.974928 0.222521]
+	SQUARE [rotate 102.857 size 0.974928 0.222521]
+	SQUARE [rotate 128.571 size 0.974928 0.222521]
+	SQUARE [rotate 154.286 size 0.974928 0.222521]
+}
+
+rule polygon15sided {
+	SQUARE [rotate 0 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 24 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 48 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 72 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 96 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 120 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 144 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 168 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 192 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 216 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 240 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 264 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 288 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 312 size 0.489074 0.207912 x 0.5]
+	SQUARE [rotate 336 size 0.489074 0.207912 x 0.5]
+}
+
+rule polygon16sided {
+	SQUARE [rotate 0 size 0.980785 0.19509]
+	SQUARE [rotate 22.5 size 0.980785 0.19509]
+	SQUARE [rotate 45 size 0.980785 0.19509]
+	SQUARE [rotate 67.5 size 0.980785 0.19509]
+	SQUARE [rotate 90 size 0.980785 0.19509]
+	SQUARE [rotate 112.5 size 0.980785 0.19509]
+	SQUARE [rotate 135 size 0.980785 0.19509]
+	SQUARE [rotate 157.5 size 0.980785 0.19509]
+}
+
+rule polygon17sided {
+	SQUARE [rotate 0 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 21.1765 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 42.3529 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 63.5294 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 84.7059 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 105.882 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 127.059 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 148.235 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 169.412 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 190.588 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 211.765 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 232.941 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 254.118 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 275.294 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 296.471 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 317.647 size 0.491487 0.18375 x 0.5]
+	SQUARE [rotate 338.824 size 0.491487 0.18375 x 0.5]
+}
+
+rule polygon18sided {
+	SQUARE [rotate 0 size 0.984808 0.173648]
+	SQUARE [rotate 20 size 0.984808 0.173648]
+	SQUARE [rotate 40 size 0.984808 0.173648]
+	SQUARE [rotate 60 size 0.984808 0.173648]
+	SQUARE [rotate 80 size 0.984808 0.173648]
+	SQUARE [rotate 100 size 0.984808 0.173648]
+	SQUARE [rotate 120 size 0.984808 0.173648]
+	SQUARE [rotate 140 size 0.984808 0.173648]
+	SQUARE [rotate 160 size 0.984808 0.173648]
+}
+
+rule polygon19sided {
+	SQUARE [rotate 0 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 18.9474 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 37.8947 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 56.8421 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 75.7895 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 94.7368 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 113.684 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 132.632 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 151.579 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 170.526 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 189.474 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 208.421 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 227.368 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 246.316 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 265.263 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 284.211 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 303.158 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 322.105 size 0.493181 0.164595 x 0.5]
+	SQUARE [rotate 341.053 size 0.493181 0.164595 x 0.5]
+}
+
+rule polygon20sided {
+	SQUARE [rotate 0 size 0.987688 0.156434]
+	SQUARE [rotate 18 size 0.987688 0.156434]
+	SQUARE [rotate 36 size 0.987688 0.156434]
+	SQUARE [rotate 54 size 0.987688 0.156434]
+	SQUARE [rotate 72 size 0.987688 0.156434]
+	SQUARE [rotate 90 size 0.987688 0.156434]
+	SQUARE [rotate 108 size 0.987688 0.156434]
+	SQUARE [rotate 126 size 0.987688 0.156434]
+	SQUARE [rotate 144 size 0.987688 0.156434]
+	SQUARE [rotate 162 size 0.987688 0.156434]
+}
+
+rule polygon21sided {
+	SQUARE [rotate 0 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 17.1429 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 34.2857 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 51.4286 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 68.5714 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 85.7143 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 102.857 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 120 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 137.143 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 154.286 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 171.429 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 188.571 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 205.714 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 222.857 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 240 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 257.143 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 274.286 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 291.429 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 308.571 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 325.714 size 0.494415 0.149042 x 0.5]
+	SQUARE [rotate 342.857 size 0.494415 0.149042 x 0.5]
+}
+
+rule polygon22sided {
+	SQUARE [rotate 0 size 0.989821 0.142315]
+	SQUARE [rotate 16.3636 size 0.989821 0.142315]
+	SQUARE [rotate 32.7273 size 0.989821 0.142315]
+	SQUARE [rotate 49.0909 size 0.989821 0.142315]
+	SQUARE [rotate 65.4545 size 0.989821 0.142315]
+	SQUARE [rotate 81.8182 size 0.989821 0.142315]
+	SQUARE [rotate 98.1818 size 0.989821 0.142315]
+	SQUARE [rotate 114.545 size 0.989821 0.142315]
+	SQUARE [rotate 130.909 size 0.989821 0.142315]
+	SQUARE [rotate 147.273 size 0.989821 0.142315]
+	SQUARE [rotate 163.636 size 0.989821 0.142315]
+}
+
+rule polygon23sided {
+	SQUARE [rotate 0 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 15.6522 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 31.3043 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 46.9565 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 62.6087 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 78.2609 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 93.913 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 109.565 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 125.217 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 140.87 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 156.522 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 172.174 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 187.826 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 203.478 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 219.13 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 234.783 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 250.435 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 266.087 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 281.739 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 297.391 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 313.043 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 328.696 size 0.495343 0.136167 x 0.5]
+	SQUARE [rotate 344.348 size 0.495343 0.136167 x 0.5]
+}
+
+rule polygon24sided {
+	SQUARE [rotate 0 size 0.991445 0.130526]
+	SQUARE [rotate 15 size 0.991445 0.130526]
+	SQUARE [rotate 30 size 0.991445 0.130526]
+	SQUARE [rotate 45 size 0.991445 0.130526]
+	SQUARE [rotate 60 size 0.991445 0.130526]
+	SQUARE [rotate 75 size 0.991445 0.130526]
+	SQUARE [rotate 90 size 0.991445 0.130526]
+	SQUARE [rotate 105 size 0.991445 0.130526]
+	SQUARE [rotate 120 size 0.991445 0.130526]
+	SQUARE [rotate 135 size 0.991445 0.130526]
+	SQUARE [rotate 150 size 0.991445 0.130526]
+	SQUARE [rotate 165 size 0.991445 0.130526]
+}

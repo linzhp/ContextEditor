@@ -1,0 +1,21 @@
+startshape SNOWFLAKE
+
+rule SNOWFLAKE {
+	SPIKE {}
+	SPIKE { r 60 }
+	SPIKE { r 120 }
+	SPIKE { r 180 }
+	SPIKE { r 240 }
+	SPIKE { r 300 }
+}
+
+rule SPIKE {
+	SQUARE {}
+	SPIKE { y 0.95 s 0.97 }
+}
+rule SPIKE 0.03 {
+	SQUARE {}
+	SPIKE { r 60 }
+	SPIKE { r -60 }
+	SPIKE { y 0.95 s 0.97  }
+}
