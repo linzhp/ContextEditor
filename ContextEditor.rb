@@ -22,7 +22,7 @@
 =end
  
 require 'libglade2'
-require 'lib/open4'
+require "#{File.dirname(__FILE__)}/lib/open4"
 
 class Test
 	TITLE = "Context Free Editor"
